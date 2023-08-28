@@ -1,0 +1,19 @@
+nav img {
+  border-radius: 50%;
+}
+
+td {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100px;
+}
+td:hover {
+  white-space: normal;
+  overflow: visible;
+  word-wrap: break-word;
+}
+
+button:hover {
+  transform: scale(1.2);
+}

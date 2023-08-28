@@ -1,0 +1,25 @@
+nav img {
+  border-radius: 50%;
+}
+
+#jumbo {
+  background-image: url("https://images.pexels.com/photos/1882020/pexels-photo-1882020.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+td {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100px;
+}
+td:hover {
+  white-space: normal;
+  overflow: visible;
+}
+
+button:hover {
+  transform: scale(1.2);
+}
